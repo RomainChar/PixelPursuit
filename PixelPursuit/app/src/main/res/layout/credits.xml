@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pixelpursuit"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"/>
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/datewinter2024"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/textViewCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course8inf257"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logo"
+        android:layout_below="@id/textViewCourse"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/imageViewEcolesLogo"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_below="@id/imageViewLogo"
+        android:src="@drawable/logo_ecoles"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+    <ImageView
+        android:id="@+id/imageViewDeveloperPhoto"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/imageViewLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/textViewDeveloperNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clictomeetdevelopers"
+        android:textSize="18sp"
+        android:layout_below="@id/imageViewEcolesLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"/>
+    <TextView
+        android:id="@+id/textViewDeveloperDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_below="@id/textViewDeveloperNom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:textAlignment="center"/>
+
+
+</RelativeLayout>

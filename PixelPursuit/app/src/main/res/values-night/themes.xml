@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PixelPursuit" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <style name="Theme_Text" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">3sp</item>
+        <item name="android:layout_marginBottom">3sp</item>
+        <item name="android:layout_marginLeft">16sp</item>
+        <item name="android:layout_marginRight">16sp</item>
+        <item name="android:paddingTop">3sp</item>
+        <item name="android:paddingBottom">3sp</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:paddingRight">10sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Theme_EditText" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">3sp</item>
+        <item name="android:layout_marginBottom">3sp</item>
+        <item name="android:layout_marginLeft">20sp</item>
+        <item name="android:layout_marginRight">20sp</item>
+        <item name="android:paddingTop">3sp</item>
+        <item name="android:paddingBottom">3sp</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:paddingRight">10sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+</resources>

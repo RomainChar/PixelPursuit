@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sv_leaderboard"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/ll_lvlselector">
+
+        <ImageView
+            android:id="@+id/iv_difficultes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/difficultes"
+            style="@style/PixelPursuit.LvlSelect" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lvl_selector_title"
+            android:id="@+id/title_lvlselector"
+            style="@style/PixelPursuit.LvlSelect.Titre"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#222222"
+            android:layout_margin="7dp"
+            android:id="@+id/line1_lvlselector"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/diff_facile"
+            android:backgroundTint="#00BC0F"
+            android:layout_margin="7dp"
+            android:id="@+id/bouton_facile_lvlselector"
+            android:onClick="appuiFacile"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vitesse_facile"
+            android:id="@+id/tv_vitesse_facile_lvlselector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/taille_facile"
+            android:id="@+id/tv_taille_facile_lvlselector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temps_facile"
+            android:id="@+id/tv_temps_facile_lvlselector"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#222222"
+            android:layout_margin="7dp"
+            android:id="@+id/line2_lvlselector"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/diff_moyenne"
+            android:backgroundTint="#0000E0"
+            android:layout_margin="7dp"
+            android:id="@+id/bouton_moyenne_lvlselector"
+            android:onClick="appuiMoyen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vitesse_moyenne"
+            android:id="@+id/tv_vitesse_moyenne_lvlselector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/taille_moyenne"
+            android:id="@+id/tv_taille_moyenne_lvlselector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temps_moyenne"
+            android:id="@+id/tv_temps_moyenne_lvlselector"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#222222"
+            android:layout_margin="7dp"
+            android:id="@+id/line3_lvlselector"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/diff_difficile"
+            android:backgroundTint="#BC9D00"
+            android:layout_margin="7dp"
+            android:id="@+id/bouton_difficile_lvlselector"
+            android:onClick="appuiDifficile"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vitesse_difficile"
+            android:id="@+id/tv_vitesse_difficile_lvlselector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/taille_difficile"
+            android:id="@+id/tv_taille_difficile_lvlselector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temps_difficile"
+            android:id="@+id/tv_temps_difficile_lvlselector"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#222222"
+            android:layout_margin="7dp"
+            android:id="@+id/line4_lvlselector"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/diff_pro"
+            android:backgroundTint="#BF0000"
+            android:layout_margin="7dp"
+            android:id="@+id/bouton_pro_lvlselector"
+            android:onClick="appuiPro"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vitesse_pro"
+            android:id="@+id/tv_vitesse_pro_lvlselector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/taille_pro"
+            android:id="@+id/tv_taille_pro_lvlselector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temps_pro"
+            android:id="@+id/tv_temps_pro_lvlselector"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_lvl_selector"
+            android:nestedScrollingEnabled="false">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#222222"
+            android:layout_margin="7dp"
+            android:id="@+id/line5_lvlselector"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/inserer_nom_difficulte"
+            android:inputType="text"
+            android:id="@+id/et_supprimer_difficulte"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/supprimer_difficulte"
+            android:backgroundTint="#BC9D00"
+            android:layout_margin="7dp"
+            android:id="@+id/bouton_supprimer_difficulte"
+            android:onClick="supprimerDifficulte"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/supprimer_toutes_difficultes"
+            android:backgroundTint="#BF0000"
+            android:layout_margin="7dp"
+            android:id="@+id/bouton_supprimer_toutes_difficultes"
+            android:onClick="supprimerDifficultes"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

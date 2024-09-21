@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        style="@style/Theme_Toolbar"
+        android:id="@+id/ActionBar"/>
+
+    <ImageView
+        style="@style/Theme_Image"
+        android:id="@+id/Image_Logo"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        style="@style/Theme_Text"
+        android:id="@+id/Text_Title"
+        android:text="@string/Title"/>
+
+    <Button
+        style="@style/Theme_Button"
+        android:text="@string/Start"
+        android:onClick="PlayGame"
+        />
+
+    <Button
+        style="@style/Theme_Button"
+        android:text="@string/Leaderboard"
+        android:onClick="Leaderboard"
+        />
+
+    <Button
+        style="@style/Theme_Button"
+        android:text="@string/Tutoriel"
+        android:onClick="Tutoriel"
+        />
+
+    <Button
+        style="@style/Theme_Button"
+        android:text="@string/Settings"
+        android:onClick="Settings"
+        />
+
+    <Button
+        style="@style/Theme_Button"
+        android:text="@string/ImageConfig"
+        android:onClick="ImageConfig"
+        />
+
+    <Button
+        style="@style/Theme_Button"
+        android:text="@string/Credits"
+        android:onClick="Credits"
+        />
+
+    <Button
+        style="@style/Theme_Button"
+        android:text="@string/Exit"
+        android:onClick="Exit"
+        />
+
+</LinearLayout>

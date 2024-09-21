@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#222222"
+        android:layout_margin="7dp"
+        android:id="@+id/line_lvlselectoritem"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/DifficultyName"
+        android:layout_margin="7dp"
+        android:id="@+id/bouton_lvlselectoritem"
+        android:onClick="appuiBouton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vitesse_jeu"
+        android:id="@+id/tv_vitesse_lvlselectoritem"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/taille_image"
+        android:id="@+id/tv_taille_lvlselectoritem"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temps_jeu"
+        android:id="@+id/tv_temps_lvlselectoritem"/>
+
+</LinearLayout>

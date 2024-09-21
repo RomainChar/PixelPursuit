@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packs>
+    <pack>
+        <packId>0</packId>
+        <name>Pack par défaut</name>
+        <mainImage>pack_default</mainImage>
+        <secondaryImages>
+            <image>pack_default_image1</image>
+            <image>pack_default_image2</image>
+            <image>pack_default_image3</image>
+            <image>pack_default_image4</image>
+            <image>pack_default_image5</image>
+            <image>pack_default_image6</image>
+            <image>pack_default_image7</image>
+            <image>pack_default_image8</image>
+        </secondaryImages>
+        <description>Description du pack par défaut</description>
+    </pack>
+    <pack>
+        <packId>1</packId>
+        <name>Pack Mario</name>
+        <mainImage>pack_mario</mainImage>
+        <secondaryImages>
+            <image>pack_mario_image1</image>
+        </secondaryImages>
+        <description>Description du pack mario</description>
+    </pack>
+    <pack>
+        <packId>2</packId>
+        <name>Pack Medailles</name>
+        <mainImage>coupe</mainImage>
+        <secondaryImages>
+            <image>medaille_or</image>
+            <image>medaille_argent</image>
+            <image>medaille_bronze</image>
+        </secondaryImages>
+        <description>Description du pack Medailles</description>
+    </pack>
+
+</packs>
